@@ -1,11 +1,12 @@
+<#macro page>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Get</title>
+    <title>Chat</title>
 </head>
 <body>
-<div>Hello, user</div>
-<a href="/main">Main page</a>
+<#nested>
 </body>
 </html>
+</#macro>
